@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html_css</title>
+    <style>
+        form{
+            width: 400px;
+            height: 500px;
+            border-radius: 8px;
+            background-color: #93d9ff;
+            padding: 20px 20px 20px;
+        }
+        .div1{
+            width: 350px;
+            height: 40px;
+            border: 1px solid white;
+            line-height: 40px;
+            background-color: rgba(255, 255, 255, 0.3);
+
+            border-radius: 8px;
+            padding: 0px 10px 0px;
+        }
+        .btn1{
+            height: 30px;
+            width: 80px;
+            background-color: green;
+            border-style: none;
+            border-radius: 30px;
+            color: white;
+        }
+
+        input{
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form method="get">
+    <fieldset>
+        <legend>Step 1: 로그인 정보</legend>
+        <div class="div1">아이디 <input type="input" name="name"></div>
+        <div class="div1">비밀번호 <input type="password" name="password"></div>
+        <div class="div1">비밀번호 확인 <input type="password" name="pwdchk"></div>
+        <div class="div1">회원 등급 <input type="input" name="grade" placeholder="준회원"></div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Step 2: 개인 정보</legend>
+        <div class="div1">이름 <input type="input" name="name" placeholder="5자미만 공백없이"></div>
+        <div class="div1">메일 주소 <input type="email" name="email" placeholder="abcd@domain.com"></div>
+        <div class="div1">연락처 <input type="input" name="phone"></div>
+    </fieldset>
+    <fieldset>
+        <legend>Step 3: 코딩 숙련도(상, 중, 하)</legend>
+        <div class="div1"><input type="range" name="level"></div>
+    </fieldset>
+    <fieldset>
+        <button class="btn1" type="submit" >제출
+    </fieldset>
+    
+    </form>
+</body>
+</html>

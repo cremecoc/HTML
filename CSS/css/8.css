@@ -1,0 +1,10 @@
+#position{
+    list-style-type: lower-alpha;
+    list-style-position: inside;
+    list-style-position: outside;
+}
+
+#image-bullet{
+    list-style-image: url("../sample/image/iconsample.PNG");
+    list-style-position: inside;
+}

@@ -1,0 +1,18 @@
+#c-name{
+    color: red;
+}
+#c-16{
+    color: #ff0000;
+}
+#c-rgb{
+    color: rgb(0, 0, 255);
+}
+#c-rgba{
+    color: rgb(252, 0, 255, 0.4);
+}
+#c-hsl{
+    color: hsl(36, 50%, 50%);
+}
+#c-hsla{
+    color: hsl(360, 50%, 50%, 0.4);
+}
