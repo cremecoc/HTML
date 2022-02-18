@@ -23,11 +23,11 @@
             border-radius: 8px;
             padding: 0px 10px 0px;
         }
-        .btn1{
+        #submit_btn{
             height: 30px;
             width: 80px;
             background-color: green;
-            border-style: none;
+            border: 0;
             border-radius: 30px;
             color: white;
         }
@@ -39,13 +39,13 @@
 </head>
 <body>
     <form method="get">
-    <fieldset>
-        <legend>Step 1: 로그인 정보</legend>
-        <div class="div1">아이디 <input type="input" name="name"></div>
-        <div class="div1">비밀번호 <input type="password" name="password"></div>
-        <div class="div1">비밀번호 확인 <input type="password" name="pwdchk"></div>
-        <div class="div1">회원 등급 <input type="input" name="grade" placeholder="준회원"></div>
-    </fieldset>
+        <fieldset>
+            <legend>Step 1: 로그인 정보</legend>
+            <div class="div1">아이디 <input type="input" name="name"></div>
+            <div class="div1">비밀번호 <input type="password" name="password"></div>
+            <div class="div1">비밀번호 확인 <input type="password" name="pwdchk"></div>
+            <div class="div1">회원 등급 <input type="input" name="grade" placeholder="준회원"></div>
+        </fieldset>
 
     <fieldset>
         <legend>Step 2: 개인 정보</legend>
@@ -58,7 +58,7 @@
         <div class="div1"><input type="range" name="level"></div>
     </fieldset>
     <fieldset>
-        <button class="btn1" type="submit" >제출
+        <input type="submit" value="제출" id="submit_btn">
     </fieldset>
     
     </form>

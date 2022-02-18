@@ -14,5 +14,9 @@
     color: hsl(36, 50%, 50%);
 }
 #c-hsla{
-    color: hsl(360, 50%, 50%, 0.4);
+    color: hsla(360, 50%, 50%, 0.4);
+}
+
+.td2{
+    text-decoration: none;
 }
