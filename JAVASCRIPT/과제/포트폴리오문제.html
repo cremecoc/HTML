@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>포트폴리오 문제</title>
+    <style>
+        .wrap{
+            width: 400px;
+            height: 200px;
+        }
+
+        #title, #content{
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        #title{
+            height: 30%;
+            border: 1px solid blue;
+        }
+
+        #content{
+            height: 70%;
+            border: 1px solid blue;
+        }
+
+        label{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>포트폴리오 문제</h1>
+    <hr>
+    <fieldset>
+        <legend>공지사항 작성하기</legend>
+        <div class="wrap">
+            <div id="title">
+                <label>제목</label>
+                <input type="text" name="title" placeholder="제목을 입력하세요." required>
+            </div>
+            <div id="content">
+                <label style="border: 1px solid red;">내용</label>
+                <textarea name="" id="" cols="30" rows="8"></textarea>
+            </div>
+        </div>
+        
+        
+    </fieldset>
+
+</body>
+</html>
